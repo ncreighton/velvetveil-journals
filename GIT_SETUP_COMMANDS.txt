@@ -1,0 +1,44 @@
+
+# GITHUB REPOSITORY SETUP COMMANDS
+# Run these commands in order to set up your GitHub Pages hosting
+
+# 1. Navigate to the repository directory
+cd "C:\Claude Code Projects\VelvetVeilPrintables-ClaudeCode\GITHUB_REPO_VELVETVEIL_JOURNALS"
+
+# 2. Initialize Git repository
+git init
+
+# 3. Add all files
+git add .
+
+# 4. Create initial commit
+git commit -m "Initial commit: VelvetVeil Journals PDF hosting for Lulu API"
+
+# 5. Create GitHub repository (run this on GitHub.com)
+# Go to: https://github.com/new
+# Repository name: velvetveil-journals
+# Description: "PDF hosting for VelvetVeilPrintables Lulu print-on-demand journals"
+# Set to Public (required for GitHub Pages)
+# Do NOT initialize with README (we already have one)
+
+# 6. Connect to GitHub repository
+git branch -M main
+git remote add origin https://github.com/ncreighton/velvetveil-journals
+
+# 7. Push to GitHub
+git push -u origin main
+
+# 8. Enable GitHub Pages
+# Go to: https://github.com/ncreighton/velvetveil-journals/settings/pages
+# Source: Deploy from a branch
+# Branch: main / (root)
+# Click Save
+
+# 9. Wait 2-3 minutes for GitHub Pages to deploy
+# Your files will be available at: https://ncreighton.github.io/velvetveil-journals
+
+# 10. Test access to your PDF files:
+# https://ncreighton.github.io/velvetveil-journals/moon_phases_journal_interior.pdf
+# https://ncreighton.github.io/velvetveil-journals/moon_phases_journal_cover.pdf
+# https://ncreighton.github.io/velvetveil-journals/shadow_work_journal_interior.pdf
+# https://ncreighton.github.io/velvetveil-journals/shadow_work_journal_cover.pdf
